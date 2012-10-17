@@ -13,7 +13,7 @@ commands should build and run the project on Debian "squeeze":
 
 <pre>
 sudo apt-get install libgdal1-1.6.0 libgdal1-dev libqwt5-qt4-dev libqt4-dev
-qmake
+qmake-qt4
 make
 ./hypsect
 </pre>
