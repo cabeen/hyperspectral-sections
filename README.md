@@ -11,10 +11,11 @@ untested.
 After downloading the project and changing to the project directory, these 
 commands should build and run the project on Debian "squeeze":
 
+<pre>
 sudo apt-get install libgdal1-1.6.0 libgdal1-dev libqwt5-qt4-dev libqt4-dev
 qmake
 make
 ./hypsect
-
+</pre>
 This is released under the MIT license.  Any comments can be
 directed to cabeen@gmail.com
