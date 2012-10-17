@@ -1,7 +1,7 @@
 CONFIG += qt debug
 QT += opengl
 
-LIBS += -lgdal1.7.0 -lqwt-qt4
+LIBS += -lgdal1.6.0 -lqwt-qt4
 INCLUDEPATH += src/ui src/geo /usr/include/gdal /usr/include/qwt-qt4
 
 DEPENDPATH += src/ui src/geo
