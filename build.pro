@@ -1,7 +1,7 @@
 CONFIG += qt debug
 QT += opengl
 
-LIBS += -lgdal1.6.0 -lqwt-qt4
+LIBS += -lgdal -lqwt-qt4
 INCLUDEPATH += src/ui src/geo /usr/include/gdal /usr/include/qwt-qt4
 
 DEPENDPATH += src/ui src/geo
@@ -50,3 +50,9 @@ QMAKE_CXXFLAGS_WARN_ON += -Waddress -Warray-bounds -Wc++0x-compat\
 macx {
     QMAKE_CXXFLAGS_WARN_ON -= -Warray-bounds -Wc++0x-compat
 }
+
+DESTDIR = build
+OBJECTS_DIR = build/.obj
+MOC_DIR = build/.moc
+RCC_DIR = build/.rcc
+UI_DIR = build/.ui
